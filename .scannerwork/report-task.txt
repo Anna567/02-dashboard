@@ -1,0 +1,7 @@
+organization=anna567
+projectKey=Anna567_02-dashboard
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.65298
+dashboardUrl=https://sonarcloud.io/dashboard?id=Anna567_02-dashboard
+ceTaskId=AZfqDPlXNrpYBwEYjD4n
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AZfqDPlXNrpYBwEYjD4n
