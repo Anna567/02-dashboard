@@ -12,6 +12,9 @@ const PieChartBox = () => {
 
 const bogusData = (data as unknown as number[])[0];
   console.log(bogusData.toFixed(2)); // Type Assertion. TypeError. ToFixed ist undefined
+
+const bogus=const bogus = (data[0] as unknown as { label: string }).label.toLowerCase(); //Property "label" existiert nicht; Zugriff auf ein nichtexistierende Eigenschaft
+  console.log('label:', bogus);  
   
   return (
     <div className="pieChartBox">
