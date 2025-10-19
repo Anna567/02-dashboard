@@ -9,6 +9,10 @@ const data = [
 ];
 
 const PieChartBox = () => {
+
+const bogusData = (data as unknown as number[])[0];
+  console.log(bogusData.toFixed(2)); // Type Assertion. TypeError. ToFixed ist undefined
+  
   return (
     <div className="pieChartBox">
       <h1>Leads by Source</h1>
